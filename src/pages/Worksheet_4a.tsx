@@ -1,16 +1,23 @@
 import {
     // Default
-    IonContent, IonHeader, IonPage, IonText, IonTitle, IonToolbar,
-
-    // Buttons
+    IonContent,
+    IonHeader,
+    IonPage,
+    IonText,
+    IonTitle,
+    IonToolbar,
     IonButton,
-
-    // Input
-    IonItem, IonInput,
-
-    // Checkbox
+    IonIcon,
+    IonItem,
+    IonInput,
     IonCheckbox
 } from '@ionic/react';
+
+import {
+    heart,
+    logoIonic
+} from 'ionicons/icons';
+
 import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
 
@@ -26,7 +33,7 @@ const Worksheet_4a: React.FC = () => {
 
             <IonContent fullscreen>
                 <IonButton expand="block">Click Me</IonButton>
-                <IonButton expand="block">❤️️ Like</IonButton>
+                <IonButton expand="block"><IonIcon icon={heart}></IonIcon>️ Like</IonButton>
 
                 <IonItem>
                     <IonInput placeholder="Username"></IonInput>

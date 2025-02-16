@@ -1,15 +1,19 @@
 import {
-  // Default
-  IonContent, IonHeader, IonPage, IonText, IonTitle, IonToolbar,
-
-  // Imports for a button
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonText,
+  IonTitle,
+  IonToolbar,
   IonButton,
-
-  // Imports for a List
-  IonItem, IonLabel, IonList,
-
-  // Imports for a Card
-  IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle
+  IonItem,
+  IonLabel,
+  IonList,
+  IonCard,
+  IonCardContent,
+  IonCardHeader,
+  IonCardSubtitle,
+  IonCardTitle
 } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
