@@ -5,6 +5,11 @@ import Home from './pages/Home';
 import Demo from './pages/Demo';
 import Worksheet4a from './pages/Worksheet_4a';
 import Worksheet4b from './pages/Worksheet_4b';
+import Worksheet4c from './pages/Worksheet_4c';
+import Worksheet4d from './pages/Worksheet_4d';
+import Worksheet4e from './pages/Worksheet_4e';
+import Worksheet4f from './pages/Worksheet_4f';
+import Worksheet4g from './pages/Worksheet_4g';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -53,6 +58,21 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/worksheet_4b">
           <Worksheet4b />
+        </Route>
+        <Route exact path="/worksheet_4c">
+          <Worksheet4c />
+        </Route>
+        <Route exact path="/worksheet_4d">
+          <Worksheet4d />
+        </Route>
+        <Route exact path="/worksheet_4e">
+          <Worksheet4e />
+        </Route>
+        <Route exact path="/worksheet_4f">
+          <Worksheet4f />
+        </Route>
+        <Route exact path="/worksheet_4g">
+          <Worksheet4g />
         </Route>
 
         <Route exact path="/">
